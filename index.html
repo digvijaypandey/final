@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+    <!-- css for carousal animation text -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- script -->
+    <script src='js/jquery-3.3.1.min.js'></script>
+    <script src="js/jquery.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark fixed-top" style="background-color: #029494;">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="hedderBanner mt-5">
+        <div class="text-center">
+            <h3 data-animation="animated bounceInLeft">
+                <lable class="hedderBanner_content_1">new special collection</lable>
+            </h3>
+            <h3 data-animation="animated bounceInDown">
+                <h1 class="hedderBanner_content_2">Adjustable Strap</h1>
+            </h3>
+            <div data-animation="animated zoomInUp">
+                <lable class="hedderBanner_content_3">
+                    The Daily Pack and Travel Pack are designed to be universal
+                    <br>to various heights and back sizes. Using the height adjustment
+                    <br>strap at either side of the bag, the user can align the backpack
+                    <br>to their requirements.
+                </lable>
+            </div>
+        </div>
+        <button type="button" value="Explore" class="btn btn-primary">Explore</button>
+    </div>
+
+
+
+
+
+    <button onclick="flip()">flip the card</button>
+    <div class="col-lg-4 mb-4">
+        <div class="card h-100">
+            <h4 class="card-header">USB Charging</h4>
+            <section class="flipContainer">
+                <div class="flipCard">
+                    <div class="card-body front">
+                        <li style="align:center"><img src='images/bags/02_i.png'>
+                            <p>Never run out of power! This bag features a USB port that can charge your mobile devices, anywhere, anytime.</p>
+                        </li>
+                        <i class="fas fa-arrow-right"></i>
+                    </div>
+                    <div class="card-body back">
+                        <p class="card-text">
+                            <h6>Back tecxt Charge your smartphone on the go.</h6>EUME seamlessly blends stunning aesthetics with real-world functionality....
+                        </p>
+                        <i class="fas fa-arrow-left"></i>
+                    </div>
+                </div>
+            </section>
+            <div class="card-footer">
+                <button href="" class="btn btn-primary" data-toggle="modal" data-target="#usbChargung">Know More</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- -------------------------------------------------- -->
+
+
+
+    <div class="card">
+        <!-- Page Content -->
+        <hr>
+        <div class="container">
+            <h4 class="my-4" style="text-transform: uppercase;">Welcome to Backpack shopping</h4>
+            <!-- Marketing Icons Section -->
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <h4 class="card-header">USB Charging</h4>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h6>Charge your smartphone on the go.</h6>EUME seamlessly blends stunning aesthetics with real-world functionality....
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button href="" class="btn btn-primary" data-toggle="modal" data-target="#usbChargung">Know More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <h4 class="card-header">Ergonomics</h4>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h6>Everything is exactly where you need it to be</h6>
+                                EUME’s visually superb design incorporates some truly masterful feats of...
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <button href="" class="btn btn-primary" data-toggle="modal" data-target="#ergonomics">Know More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <h4 class="card-header">Back Massager</h4>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h6>Dual level massagers to relax and soothe your back.</h6>EUME is a gentle comfort, when you need it most. At just the push of a...
+                        </div>
+                        <div class="card-footer">
+                            <button href="" class="btn btn-primary" data-toggle="modal" data-target="#backMassager">Know More</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100">
+                        <h4 class="card-header">Durability</h4>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <h6>Your sturdy companion, for the world.</h6>EUME is crafted by some of the industry’s most skilled sewers using only...
+                        </div>
+                        <div class="card-footer">
+                            <button href="" class="btn btn-primary" data-toggle="modal" data-target="#durability">Know More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features Section -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Backpack Features</h2>
+                    <h5>Sleek, Stylish, Surreal.</h5>
+                    <p>With cutting edge technology seamlessly integrated into an exquisite, tough body, EUME is the ultimate blend of comfort and functionality. It truly is an indispensable companion for every occasion.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid rounded" src="images/bags/dailypack.gif" alt="">
+                </div>
+            </div>
+            <hr>
+            <!-- Features Section -->
+            <!-- <div class="row">
+
+            <div class="col-lg-9">
+                <ul>
+                    <li><img src='images/bags/01_i.png'>
+                        <h3>Built-In Massager</h3>
+                        <span>Ease out prolonged discomfort by rejuvenating your back muscles
+                          on-the-go with our
+                          patented, built-in massager.</span>
+                    </li>
+                    <li><img src='images/bags/02_i.png'>
+                        <h3>USB Charging</h3>
+                        <span>Never run out of power! This bag features a USB port that can charge
+                          your mobile
+                          devices, anywhere, anytime.</span>
+                    </li>
+                    <li><img src='images/bags/03_i.png'>
+                        <h3>Built to Last</h3>
+                        <span>Forged from the finest, ultra-light fabrics, our highly durables bags
+                          come with a free 18 month warranty.</span>
+                    </li>
+                    <li><img src='images/bags/feather_icon.png'>
+                        <h3>Light As A Feather</h3>
+                        <span>EUME bags are custom engineered to be light yet sturdy, making them
+                          ideal for long distance travel.</span>
+                    </li>
+                </ul>
+
+            </div>
+            <div class="col-lg-3">
+                <img src="images/bags/home-bag.png" style="height:50%;">
+            </div>
+
+        </div> -->
+
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Farmit 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+    <!--all model boxes  -->
+
+
+    <div class="modal fade" id="usbChargung" tabindex="-1" role="dialog" aria-labelledby="usbChargingLable" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="usbChargingLable">USB Charging</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <figure class="figure">
+                        <img src='images/bags/img-f-22.jpg' class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">
+                            <h6>
+                                <u>Charge your smartphone on the go.</u>
+                            </h6>
+                            <p>
+                                EUME seamlessly blends stunning aesthetics with real-world functionality. The bag’s USB ports will allow you to conveniently charge your smartphone or mobile device, wherever you are.
+                            </p>
+                            <h5>You have the power.</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="ergonomics" tabindex="-1" role="dialog" aria-labelledby="ergonomicsLable" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ergonomics">Ergonomics</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <figure class="figure">
+                        <img src='images/bags/img-f-11.jpg' class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">
+                            <h6>
+                                <u>Everything is exactly where you need it to be.</u>
+                            </h6>
+                            <p>
+                                EUME’s visually superb design incorporates some truly masterful feats of ergonomics, which makes using the bag a convenient, comfortable, and clutter-free experience.
+                            </p>
+                            <h5>An extension of your being.</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="backMassager" tabindex="-1" role="dialog" aria-labelledby="backMassagerLable" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="backMassager">Back Massager</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <figure class="figure">
+                        <img src='images/bags/img-f-19.jpg' class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">
+                            <h6>
+                                <u>Dual level massagers to relax and soothe your back.</u>
+                            </h6>
+                            <p>
+                                EUME is a gentle comfort, when you need it most. At just the push of a button, the advanced, strategically positioned massagers can give you a relaxing massage, that’s guaranteed to soothe every fiber of your being; anywhere, any time.
+                            </p>
+                            <h5>Go the distance, you’ll be surely be super fine.</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="durability" tabindex="-1" role="dialog" aria-labelledby="durabilityLable" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="durability">Durability</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <figure class="figure">
+                        <img src='images/bags/img-f-21.jpg' class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                        <figcaption class="figure-caption">
+                            <h6>
+                                <u>Your sturdy companion, for the world.</u>
+                            </h6>
+                            <p>
+                                EUME is crafted by some of the industry’s most skilled sewers using only the finest and most durable lightweight materials, making the bag impressively flexible for most forms of physical use.
+                            </p>
+                            <h5>You can lean on me.</h5>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- caraousal animated text -->
+    <script>
+        (function($) {
+            //Function to animate slider captions
+            function doAnimations(elems) {
+                //Cache the animationend event in a variable
+                var animEndEv = "webkitAnimationEnd animationend";
+
+                elems.each(function() {
+                    var $this = $(this),
+                        $animationType = $this.data("animation");
+                    $this.addClass($animationType).one(animEndEv, function() {
+                        $this.removeClass($animationType);
+                    });
+                });
+            }
+
+            //Variables on page load
+            var $myCarousel = $("#carouselExampleIndicators"),
+                $firstAnimatingElems = $myCarousel
+                .find(".carousel-item:first")
+                .find("[data-animation ^= 'animated']");
+
+            //Initialize carousel
+            $myCarousel.carousel();
+
+            //Animate captions in first slide on page load
+            doAnimations($firstAnimatingElems);
+
+            //Other slides to be animated on carousel slide event
+            $myCarousel.on("slide.bs.carousel", function(e) {
+                var $animatingElems = $(e.relatedTarget).find(
+                    "[data-animation ^= 'animated']"
+                );
+                doAnimations($animatingElems);
+            });
+        })(jQuery);
+    </script>
+</body>
+
+</html>
